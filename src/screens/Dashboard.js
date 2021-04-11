@@ -13,7 +13,7 @@ import {
 } from "react-native";
 
 import { dummyData, COLORS, SIZES, FONTS, icons, images } from "../constants";
-import Header from "../components/Header";
+import Header from "../components/Shared/Header";
 
 const COUNTRIES_ITEM_SIZE = SIZES.width / 3;
 
@@ -130,6 +130,7 @@ const Dashboard = ({ navigation }) => {
       <Header title="Asia" />
       <ScrollView>
         <View style={{ height: 700 }}>
+          {/* <Text>hello</Text> */}
           {/* Countries */}
           <View>{renderCountries()}</View>
           {/* Places */}
@@ -138,5 +139,6 @@ const Dashboard = ({ navigation }) => {
     </SafeAreaView>
   );
 };
+// };
 
 export default Dashboard;

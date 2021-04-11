@@ -1,6 +1,13 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
-import { dummyData, COLORS, SIZES, FONTS, icons, images } from "../constants";
+import {
+  dummyData,
+  COLORS,
+  SIZES,
+  FONTS,
+  icons,
+  images,
+} from "../../constants";
 
 const Header = ({ title }) => {
   return (
